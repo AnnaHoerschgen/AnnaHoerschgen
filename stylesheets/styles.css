@@ -1,3 +1,12 @@
+/*
+Color reference - "Death Dragon"
+#fc55a0 - brilliant rose
+#feffff - white
+#1b71cd - bright navy blue
+#8ac2cb - middle blue
+#000000 - black
+*/
+
 * {
     margin: auto;
     padding: auto;
@@ -7,6 +16,9 @@ body {
     background-color: #8ac2cb;
     color: black;
     width: 80%;
+    font-family: monospace;
+    text-align: center;
+    margin: auto;
 }
 
 nav {
@@ -16,6 +28,8 @@ nav {
     top: 0;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 1;
+    font-size: large;
 }
 
 nav>a {
@@ -27,12 +41,46 @@ nav>a:visited {
     color: #8ac2cb;
 }
 
+nav>a:hover {
+    color: #1b71cd;
+}
+
 img {
-    display: flex;
-    align-self: center;
     width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
 }
 
 .carousel-item {
-    width: auto;
+    margin: auto;
+}
+
+table {
+    border: 5px solid #1b71cd;
+    background-color: #e8edf1;
+    text-align: center;
+}
+
+td {
+    border: 2px double #1b71cd;
+}
+
+th {
+    text-align: center;
+    background-color: #feffff;
+}
+
+.second {
+    text-align: center;
+}
+
+#DFF {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+
+#DFF>a {
+    text-decoration: none;
+    color: black;
 }
