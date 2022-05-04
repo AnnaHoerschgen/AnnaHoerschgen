@@ -50,6 +50,7 @@ img {
     display: flex;
     flex-direction: row;
     align-content: center;
+    margin-bottom: 1%;
 }
 
 .carousel-item {
@@ -60,6 +61,7 @@ table {
     border: 5px solid #1b71cd;
     background-color: #e8edf1;
     text-align: center;
+    width: 80%;
 }
 
 td {
@@ -75,12 +77,13 @@ th {
     text-align: center;
 }
 
-#DFF {
+#DFF>a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
-}
-
-#DFF>a {
     text-decoration: none;
     color: black;
+}
+
+td>img {
+    width: 90%;
 }
