@@ -1,3 +1,5 @@
+@import "styles.css";
+
 /*
 Color reference - "Death Dragon"
 #fc55a0 - brilliant rose
@@ -21,4 +23,11 @@ body {
 nav {
     background-color: #feffff;
     border: 5px double #fc55a0;
+    position: sticky;
+    top: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+    margin-left: 50%;
 }

@@ -21,4 +21,11 @@ body {
 nav {
     background-color: #feffff;
     border: 5px double #fc55a0;
+    position: sticky;
+    top: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+    margin-left: 50%;
 }
