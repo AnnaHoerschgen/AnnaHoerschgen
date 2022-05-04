@@ -14,9 +14,25 @@ nav {
     border: 5px double #fc55a0;
     position: sticky;
     top: 0;
+    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+nav>a {
+    text-decoration: none;
+    color: #fc55a0;
+}
+
+nav>a:visited {
+    color: #8ac2cb;
+}
+
 img {
-    margin-left: 35%;
+    display: flex;
+    align-self: center;
+    width: 90%;
+}
+
+.carousel-item {
+    width: auto;
 }
