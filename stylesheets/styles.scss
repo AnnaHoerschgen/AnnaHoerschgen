@@ -1,0 +1,24 @@
+/*
+Color reference - "Death Dragon"
+#fc55a0 - brilliant rose
+#feffff - white
+#1b71cd - bright navy blue
+#8ac2cb - middle blue
+#000000 - black
+*/
+
+* {
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    background-color: #feffff;
+    color: black;
+    width: 80%;
+}
+
+nav {
+    background-color: #8ac2cb;
+    border: 5px double #fc55a0;
+}
