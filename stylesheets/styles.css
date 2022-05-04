@@ -1,0 +1,15 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    background-color: #feffff;
+    color: black;
+    width: 80%;
+}
+
+nav {
+    background-color: #8ac2cb;
+    border: 5px double #fc55a0;
+}
