@@ -93,3 +93,14 @@ th {
 td>img {
     width: 90%;
 }
+
+.pain {
+    width: 100%;
+}
+
+.essay {
+    border: 5px solid #1b71cd;
+    background-color: #e8edf1;
+    text-align: center;
+    width: 80%;
+}
