@@ -63,12 +63,13 @@ table {
     border: 5px solid #1b71cd;
     background-color: #e8edf1;
     text-align: center;
-    width: 80%;
+    width: 95%;
     height: auto;
 }
 
 td {
     border: 2px double #1b71cd;
+    width: auto;
 }
 
 td>a {
@@ -90,7 +91,7 @@ td>iframe {
     text-align: center;
 }
 
-#DFF>a {
+#DFF>p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
     text-decoration: none;
@@ -99,6 +100,10 @@ td>iframe {
 
 td>img {
     width: 90%;
+}
+
+#DFF>img {
+    width: 50%;
 }
 
 .pain {
@@ -110,6 +115,15 @@ td>img {
     background-color: #e8edf1;
     text-align: center;
     width: 80%;
+}
+
+footer {
+    color: #e8edf1;
+}
+
+footer>a {
+    text-decoration: none;
+    color: #e8edf1;
 }
 
 @media only screen and (max-width: 1126px) {
