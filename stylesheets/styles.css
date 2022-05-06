@@ -129,6 +129,8 @@ td > img {
 
 footer {
   color: #e8edf1;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
 
 footer > a {
@@ -136,18 +138,7 @@ footer > a {
   color: #e8edf1;
 }
 
-@media only screen and (max-width: 1126px) and (max-width: 766px) {
-  body {
-    font-size: small;
-    width: 100%;
-  }
-  nav {
-    font-size: medium;
-  }
-  table {
-    width: 100%;
-    margin: auto;
-  }
+@media only screen and (max-width: 1126px) {
   td {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -161,6 +152,20 @@ footer > a {
             justify-content: center;
     -ms-flex-line-pack: center;
         align-content: center;
+  }
+}
+
+@media only screen and (max-width: 1126px) and (max-width: 766px) {
+  body {
+    font-size: small;
+    width: 100%;
+  }
+  nav {
+    font-size: medium;
+  }
+  table {
+    width: 100%;
+    margin: auto;
   }
   table.projects {
     width: 100%;

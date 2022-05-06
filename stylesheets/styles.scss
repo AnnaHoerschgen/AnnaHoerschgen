@@ -121,6 +121,8 @@ td>img {
 
 footer {
     color: $table;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 footer>a {
@@ -129,6 +131,12 @@ footer>a {
 }
 
 @media only screen and (max-width: 1126px) {
+    td {
+        display: $flex;
+        flex-direction: column;
+        justify-content: $center;
+        align-content: $center;
+    }
     @media only screen and (max-width: 766px) {
         body {
             font-size: small;
@@ -140,12 +148,6 @@ footer>a {
         table {
             width: $full;
             margin: $auto;
-        }
-        td {
-            display: $flex;
-            flex-direction: column;
-            justify-content: $center;
-            align-content: $center;
         }
         table.projects {
             width: $full;
