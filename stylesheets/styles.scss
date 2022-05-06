@@ -1,85 +1,87 @@
+@import "_base.scss";
+
 /*
 Color reference - "Death Dragon"
-#fc55a0 - brilliant rose
-#feffff - white
-#1b71cd - bright navy blue
-#8ac2cb - middle blue
-#000000 - black
+$color1 - brilliant rose
+$color2 - white
+$color3 - bright navy blue
+$color4 - middle blue
+$color5 - black
 */
 
 * {
-    margin: auto;
-    padding: auto;
+    margin: $auto;
+    padding: $auto;
     font-size: 1em;
 }
 
 body {
-    background-color: #8ac2cb;
-    color: black;
-    width: 80%;
+    background-color: $color4;
+    color: $color5;
+    width: $per80;
     font-family: monospace;
-    text-align: center;
-    margin: auto;
+    text-align: $center;
+    margin: $auto;
 }
 
 nav {
-    width: auto;
-    background-color: #feffff;
-    border: 5px double #fc55a0;
+    width: $auto;
+    background-color: $color2;
+    border: 5px double $color1;
     position: sticky;
     top: 0;
-    text-align: center;
+    text-align: $center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     z-index: 1;
     font-size: 1.5em;
 }
 
 nav>a {
-    text-decoration: none;
-    color: #fc55a0;
+    text-decoration: $none;
+    color: $color1;
 }
 
 nav>a:visited {
-    color: #8ac2cb;
+    color: $color4;
 }
 
 nav>a:hover {
-    color: #1b71cd;
+    color: $color3;
 }
 
 img {
     width: 90%;
-    display: flex;
+    display: $flex;
     flex-direction: row;
-    align-content: center;
+    align-content: $center;
     margin-bottom: 1%;
 }
 
 .carousel-item {
-    margin: auto;
+    margin: $auto;
 }
 
 table {
-    border: 5px solid #1b71cd;
-    background-color: #e8edf1;
-    text-align: center;
+    border: 5px solid $color3;
+    background-color: $table;
+    text-align: $center;
     width: 95%;
-    height: auto;
+    height: $auto;
 }
 
 td {
-    border: 2px double #1b71cd;
-    width: auto;
+    border: 2px double $color3;
+    width: $auto;
 }
 
 td>a {
-    text-decoration: none;
-    color: #1b71cd;
+    text-decoration: $none;
+    color: $color3;
 }
 
 th {
-    text-align: center;
-    background-color: #feffff;
+    text-align: $center;
+    background-color: $color2;
 }
 
 td>iframe {
@@ -88,14 +90,14 @@ td>iframe {
 }
 
 .second {
-    text-align: center;
+    text-align: $center;
 }
 
 #DFF>p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
-    text-decoration: none;
-    color: black;
+    text-decoration: $none;
+    color: $color5;
 }
 
 td>img {
@@ -107,46 +109,46 @@ td>img {
 }
 
 .pain {
-    width: 100%;
+    width: $full;
 }
 
 .essay {
-    border: 5px solid #1b71cd;
-    background-color: #e8edf1;
-    text-align: center;
-    width: 80%;
+    border: 5px solid $color3;
+    background-color: $table;
+    text-align: $center;
+    width: $per80;
 }
 
 footer {
-    color: #e8edf1;
+    color: $table;
 }
 
 footer>a {
-    text-decoration: none;
-    color: #e8edf1;
+    text-decoration: $none;
+    color: $table;
 }
 
 @media only screen and (max-width: 1126px) {
     @media only screen and (max-width: 766px) {
         body {
             font-size: small;
-            width: 100%;
+            width: $full;
         }
         nav {
             font-size: medium;
         }
         table {
-            width: 100%;
-            margin: auto;
+            width: $full;
+            margin: $auto;
         }
         td {
-            display: flex;
+            display: $flex;
             flex-direction: column;
-            justify-content: center;
-            align-content: center;
+            justify-content: $center;
+            align-content: $center;
         }
         table.projects {
-            width: 100%;
+            width: $full;
             margin-left: initial;
         }
         .DFF>a {
