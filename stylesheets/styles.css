@@ -65,7 +65,6 @@ table {
     text-align: center;
     width: 80%;
     height: auto;
-    margin-left: auto;
 }
 
 td {
@@ -83,8 +82,7 @@ th {
 }
 
 td>iframe {
-    width: auto;
-    height: auto;
+    min-width: min-content;
     min-height: min-content;
 }
 
@@ -114,20 +112,24 @@ td>img {
     width: 80%;
 }
 
-@media only screen and (max-width: 704px) {
-    body {
-        width: 100%;
-        font-size: smaller;
-    }
-    table {
-        margin-left: 10%;
-    }
-    table>.projects {
-        margin-left: 5%;
-    }
-    @media only screen and (max-width: 620px) {
+@media only screen and (max-width: 1126px) {
+    @media only screen and (max-width: 766px) {
         body {
-            font-size: xx-small;
+            font-size: small;
+            width: 100%;
+        }
+        nav {
+            font-size: medium;
+        }
+        table {
+            width: 100%;
+            margin: auto;
+        }
+        td {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
         }
         table.projects {
             width: 100%;
@@ -140,8 +142,10 @@ td>img {
             height: min-content;
         }
         td>iframe {
-            width: 80%;
-            height: auto;
+            min-height: 400px;
+        }
+        td>img {
+            width: 60%
         }
     }
 }
