@@ -10,6 +10,7 @@ Color reference - "Death Dragon"
 * {
     margin: auto;
     padding: auto;
+    font-size: 1em;
 }
 
 body {
@@ -63,6 +64,8 @@ table {
     background-color: #e8edf1;
     text-align: center;
     width: 80%;
+    height: auto;
+    margin-left: auto;
 }
 
 td {
@@ -77,6 +80,12 @@ td>a {
 th {
     text-align: center;
     background-color: #feffff;
+}
+
+td>iframe {
+    width: auto;
+    height: auto;
+    min-height: min-content;
 }
 
 .second {
@@ -103,4 +112,36 @@ td>img {
     background-color: #e8edf1;
     text-align: center;
     width: 80%;
+}
+
+@media only screen and (max-width: 704px) {
+    body {
+        width: 100%;
+        font-size: smaller;
+    }
+    table {
+        margin-left: 10%;
+    }
+    table>.projects {
+        margin-left: 5%;
+    }
+    @media only screen and (max-width: 620px) {
+        body {
+            font-size: xx-small;
+        }
+        table.projects {
+            width: 100%;
+            margin-left: initial;
+        }
+        .DFF>a {
+            font-size: small;
+        }
+        td>p {
+            height: min-content;
+        }
+        td>iframe {
+            width: 80%;
+            height: auto;
+        }
+    }
 }
